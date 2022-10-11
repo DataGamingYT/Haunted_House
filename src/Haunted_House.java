@@ -14,8 +14,8 @@ public class Haunted_House extends Canvas
     public void paint( Graphics door )
     {
         door.setColor(Color.BLACK);
-        door.fillRect(200, 200, 50, 50);
-        door.drawRect(200, 200, 50, 50);
+        door.fillRect(0, 200, 50, 50);
+        door.drawRect(0, 200, 50, 50);
         //call theHouse
     }
 
