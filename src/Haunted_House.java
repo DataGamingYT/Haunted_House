@@ -19,7 +19,7 @@ public class Haunted_House extends Canvas
         //call theHouse
         //roof
         theHouse.setColor(Color.DARK_GRAY);
-        theHouse.fillRect(100, 100, 200, 300);
+        //theHouse.fillRect(100, 100, 200, 300);
         theHouse.drawRect(100, 100, 200, 300);
     }
 
