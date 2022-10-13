@@ -11,23 +11,27 @@ public class Haunted_House extends Canvas
         setVisible(true);
     }
 
-    public void paint( Graphics door )
+    public void theHouse ( Graphics theHouse )
     {
-        door.setColor(Color.BLACK);
-        door.fillRect(0, 200, 50, 50);
-        door.drawRect(0, 200, 50, 50);
+        theHouse.setColor(Color.BLACK);
+        theHouse.fillRect(200, 200, 500, 300);
+        theHouse.drawRect(200, 200, 500, 300);
         //call theHouse
+        //roof
+        theHouse.setColor(Color.DARK_GRAY);
+        theHouse.fillRect(100, 100, 200, 300);
+        theHouse.drawRect(100, 100, 200, 300);
     }
 
-    public void theHouse( Graphics window )
+    public void roof ( Graphics roof )
     {
-        window.setColor(Color.ORANGE);
+        roof.setColor(Color.ORANGE);
 
-        window.drawString( "HAPPY HALLOWEEN!!", 50, 50 );
+        roof.drawString( "HAPPY HALLOWEEN!!", 50, 50 );
 
-        window.setColor(Color.ORANGE);
+        roof.setColor(Color.ORANGE);
 
-        window.fillRect( 200, 200, 400, 400 );
+        roof.fillRect( 200, 200, 400, 400 );
 
     }
 }

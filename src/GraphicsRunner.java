@@ -9,8 +9,8 @@ import java.awt.Canvas;
 
 public class GraphicsRunner extends JFrame
 {
-    private static final int WIDTH = 1920;
-    private static final int HEIGHT = 1080;
+    private static final int WIDTH = 975;
+    private static final int HEIGHT =1080;
 
     public GraphicsRunner()
     {
